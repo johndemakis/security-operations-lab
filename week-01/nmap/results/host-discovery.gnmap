@@ -1,5 +1,0 @@
-# Nmap 7.95 scan initiated Tue Sep 22 22:11:03 2026 as: nmap -sn -oA results/host-discovery 10.10.10.0/24
-Host: 10.10.10.20 ()	Status: Up
-Host: 10.10.10.30 ()	Status: Up
-Host: 10.10.10.10 ()	Status: Up
-# Nmap done at Tue Sep 22 22:11:06 2026 -- 256 IP addresses (3 hosts up) scanned in 2.05 seconds

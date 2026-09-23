@@ -1,0 +1,6 @@
+# Nmap 7.95 scan initiated Tue Sep 22 22:44:10 2026 as: nmap -sn --reason -oA results/host-discovery-unprivileged 10.10.10.0/24
+Nmap scan report for 10.10.10.10
+Host is up, received conn-refused (0.00047s latency).
+Nmap scan report for 10.10.10.20
+Host is up, received syn-ack (0.0022s latency).
+# Nmap done at Tue Sep 22 22:44:13 2026 -- 256 IP addresses (2 hosts up) scanned in 2.93 seconds
