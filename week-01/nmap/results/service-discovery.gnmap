@@ -1,0 +1,6 @@
+# Nmap 7.95 scan initiated Tue Sep 22 22:12:22 2026 as: nmap -sV --version-light -oA results/service-discovery 10.10.10.20 10.10.10.30
+Host: 10.10.10.20 ()	Status: Up
+Host: 10.10.10.20 ()	Ports: 22/open/tcp//ssh//OpenSSH 10.0p2 Debian 7+deb13u4 (protocol 2.0)/, 80/open/tcp//http//nginx/	Ignored State: closed (998)
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 	Ignored State: filtered (1000)
+# Nmap done at Tue Sep 22 22:12:32 2026 -- 2 IP addresses (2 hosts up) scanned in 10.73 seconds

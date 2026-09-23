@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Tue Sep 22 22:11:03 2026 as: nmap -sn -oA results/host-discovery 10.10.10.0/24
+Nmap scan report for 10.10.10.20
+Host is up (0.00039s latency).
+MAC Address: 00:0C:29:86:9A:7C (VMware)
+Nmap scan report for 10.10.10.30
+Host is up (0.00067s latency).
+MAC Address: 00:0C:29:75:23:26 (VMware)
+Nmap scan report for 10.10.10.10
+Host is up.
+# Nmap done at Tue Sep 22 22:11:06 2026 -- 256 IP addresses (3 hosts up) scanned in 2.05 seconds

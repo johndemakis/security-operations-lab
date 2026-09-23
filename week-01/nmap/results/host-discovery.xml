@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Tue Sep 22 22:11:03 2026 as: nmap -sn -oA results/host-discovery 10.10.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oA results/host-discovery 10.10.10.0/24" start="1790133063" startstr="Tue Sep 22 22:11:03 2026" version="7.95" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.10.20" addrtype="ipv4"/>
+<address addr="00:0C:29:86:9A:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="390" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.10.30" addrtype="ipv4"/>
+<address addr="00:0C:29:75:23:26" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="665" rttvar="1356" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="10.10.10.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1790133066" timestr="Tue Sep 22 22:11:06 2026" summary="Nmap done at Tue Sep 22 22:11:06 2026; 256 IP addresses (3 hosts up) scanned in 2.05 seconds" elapsed="2.05" exit="success"/><hosts up="3" down="253" total="256"/>
+</runstats>
+</nmaprun>
