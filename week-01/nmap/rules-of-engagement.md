@@ -2,7 +2,7 @@
 
 ## Purpose and Safety
 
-This lab is designed to practice Nmap network discovery in a controlled environment. All scanning must remain within the authorized `10.10.10.0/24` VMware lab network.
+This lab is designed to practice Nmap host discovery and service detection in a controlled environment. All scanning must remain within the authorized `10.10.10.0/24` VMware lab network.
 
 ## Scope
 
@@ -15,10 +15,12 @@ Authorized systems:
 ## Permitted Activities
 
 * Nmap host discovery using `-sn`
+* Service and version detection using `-sV --version-light`
 * Basic connectivity testing
-* ARP and network traffic observation
 
 ## Out of Scope
 
-* Networks or systems outside the lab
-* Public IP addresses
+* Systems outside the `10.10.10.0/24` lab network
+* Destructive or disruptive testing
+
+
